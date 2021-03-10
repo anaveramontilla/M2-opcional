@@ -1,0 +1,182 @@
+.container {
+    width: 50%;
+    margin: auto;
+    font-family: "Roboto", sans-serif;
+
+}
+
+/* CABECERA */
+.cabecera {
+    background: url("/images/cabecera.png") no-repeat center center/cover;
+    height: 90px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Logo izquierda */
+
+.logo-cabecera img {
+    float: left;
+    height: 80px;
+    width: auto;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+/* Iconos redes */
+.redes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    float: right;
+    margin-top: 28px;
+    margin-right: 30px;
+}
+
+.redes a {
+    margin-top: 5px;
+}
+
+.redes a i {
+    font-size: 25px;
+    color: white;
+}
+
+
+/* NAVEGACIÓN */
+.nav-bar {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 5px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+.nav-opcion {
+    background-color: #009588;
+    text-align: center;
+    padding: 10px;
+}
+
+.nav-opcion a {
+    color: white;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.nav-opcion a:hover {
+    color: #3f2d5c;
+    font-weight: 700;
+}
+
+/* ELEMENTOS DESTACADOS */
+.destacados {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    height: 170px;
+    margin-bottom: 20px;
+}
+
+.cards img {
+    width: 100%;
+    height: 100%;
+    background-position: center/cover;
+}
+
+.cards h3 {
+    color: white;
+    text-shadow: 2px 2px black;
+    margin-top: -100px;
+    margin-left: 20px;
+}
+
+.cards a {
+    text-decoration: none;
+}
+
+.btn {
+    cursor: pointer;
+    background-color: #009588;
+    border: 2px solid #124641;
+    border-radius: 10px;
+    padding: 10px 10px;
+    color: white;
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+.btn:hover { /*al poner ratón encima del botón cambiará de color*/
+    background-color: #3f2d5c;
+    border: 2px solid #291a41;
+}
+
+/* CONTENIDO CENTRAL */
+.central {
+    margin-bottom: 20px;
+}
+
+.central h3 {
+    color: white;
+    margin-left: 25px;
+    margin-bottom: -10px;
+}
+
+.central a {
+    text-decoration: none;
+}
+
+.central td {
+    height: 450px;
+    vertical-align: bottom;
+}
+
+.central p {
+    font-size: 14px;
+    color: white;
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+
+.celda-izq {
+    background: url("/images/img-4.jpg") no-repeat center center/cover;
+    width: 25%;
+}
+
+.celda-central {
+    background: url("/images/img-5.jpg") no-repeat center center/cover;
+    width: 600px;
+}
+
+.celda-dcha {
+    background: url("/images/img-6.jpg") no-repeat center center/cover;
+    width: 25%;
+}
+
+.btn-2 { /*botón ver más*/
+    cursor: pointer;
+    background-color: #009588;
+    border: 2px solid #124641;
+    border-radius: 10px;
+    padding: 5px 5px;
+    color: white;
+    font-size: 13px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    float: left;
+}
+
+.btn-2:hover { /*al poner ratón encima del botón cambiará de color*/
+    border: 2px solid #291a41;
+    background-color: #3f2d5c;
+}
+
+/* PIE */
+
+.pie {
+    background: url("/images/cabecera.png") no-repeat center center/cover;
+    height: 60px;
+    color: white;
+    font-size: 13px;
+    text-align: center;
+    padding: 5px;
+}
