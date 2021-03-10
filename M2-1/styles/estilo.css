@@ -1,0 +1,87 @@
+.container {
+    width: 50%;
+    margin: auto;
+
+}
+
+/* CABECERA */
+.cabecera {
+    background-color: #575757;
+    height: 90px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Logo izquierda */
+.logo-cabecera {
+    background-color: #e6e6e6;
+    height: 45px;
+    width: 150px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    
+}
+/* Iconos redes */
+.redes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    float: right;
+    margin-top: 28px;
+    margin-right: 20px;
+}
+
+.circulo {
+    background-color: #f0f0f0;
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+}
+
+/* NAVEGACIÓN */
+.nav-bar {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 5px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+.nav-opcion {
+    background-color: #a5a5a5;
+}
+
+/* ELEMENTOS DESTACADOS */
+.destacados {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    height: 160px;
+    margin-bottom: 20px;
+}
+
+.apartado-dest {
+    background-color: #797979;
+}
+
+/* CONTENIDO CENTRAL */
+.central {
+    background-color: #a5a5a5;
+    height: 450px;
+    margin-bottom: 20px;
+}
+
+.cuadro-centro {
+    background-color: #575757;
+    width: 60%;
+    height: 100%;
+    margin: auto;
+}
+
+/* PIE */
+
+.pie {
+    background-color: #575757;
+    height: 50px;
+}
